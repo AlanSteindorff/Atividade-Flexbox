@@ -1,0 +1,38 @@
+body {
+    background-color: #F0F0F0;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header {
+    background-color: #FF6961;
+    padding: 30px;
+    text-align: center;
+}
+.content{
+    display:flex;
+    gap: 20px;
+}
+.main-article {
+    text-align: left;
+    background-color: #77DD77;
+    padding: 20px 15px;
+    flex: 2;
+}
+.sidebar {
+    background-color: #FDFD96;
+    padding: 20px 15px;
+    flex: 1;
+}
+.articles {
+    display: flex;
+    gap: 20px;
+}
+.article {
+    background-color: #84B6F4;
+    flex: 2;
+    padding: 20px;
+    text-align: center;
+}
